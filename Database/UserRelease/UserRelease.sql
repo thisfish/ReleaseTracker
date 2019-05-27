@@ -1,0 +1,6 @@
+CREATE TABLE UserRelease (
+    UserID INT FOREIGN KEY REFERENCES [User](UserID), 
+    ReleaseID INT FOREIGN KEY REFERENCES Release(ReleaseID),
+    Updated DATETIME NOT NULL,
+    Created DATETIME NOT NULL
+);

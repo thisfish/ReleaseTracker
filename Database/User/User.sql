@@ -1,0 +1,9 @@
+CREATE TABLE [User] (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    UserName VARCHAR(50) NOT NULL,
+    [Name] VARCHAR(255),
+    Email VARCHAR(255) NOT NULL,
+    [Password] BINARY(64),
+    Updated DATETIME NOT NULL,
+    Created DATETIME NOT NULL
+);

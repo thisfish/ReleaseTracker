@@ -1,0 +1,5 @@
+CREATE TABLE [Log] (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    ActionID INT,
+    Object VARCHAR(MAX)
+);
